@@ -1,0 +1,20 @@
+{
+  "name": "url",
+  "version": "0.1.0",
+  "homepage": "https://github.com/not-naught/url",
+  "authors": [
+    "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>"
+  ],
+  "main": "url.es",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
