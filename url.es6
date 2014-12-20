@@ -5,7 +5,6 @@ const encode = function(str) {
             return "%" + chr.charCodeAt(0).toString(16);
         });
     },
-    defaults = ,
     Url = Object.freeze(Object.assign(function Url(parts) {
             Object.assign(this, Url.defaults);
             Object.assign(this, parts);
