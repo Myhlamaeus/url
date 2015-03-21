@@ -14,7 +14,7 @@
     "time-grunt": "^1.1.0"
   },
   "homepage": "https://github.com/not-naught/url",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "main": "dist/cjs.js",
   "repository": {
     "type": "git",
