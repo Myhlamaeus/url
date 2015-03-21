@@ -2,7 +2,7 @@
   "name": "url",
   "version": "0.2.0",
   "description": "",
-  "main": "url.es6",
+  "main": "url.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
