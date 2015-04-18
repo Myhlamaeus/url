@@ -16,8 +16,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "query.es6": "~0.3.0"
-  }
+  ]
 }

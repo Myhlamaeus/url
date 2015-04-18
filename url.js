@@ -1,4 +1,4 @@
-import query from './bower_components/query.es6/query.es6'
+import query from 'query.js'
 
 const encode = function (str) {
   return encodeURIComponent(str).replace(/[!'()*]/g, function (chr) {

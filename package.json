@@ -29,5 +29,8 @@
     "gulp": "^3.8.11",
     "gulp-babel": "^4.0.0",
     "gulp-sourcemaps": "^1.5.1"
+  },
+  "dependencies": {
+    "query.js": "git://github.com/ileri/query.git"
   }
 }
