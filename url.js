@@ -56,21 +56,21 @@ Object.freeze(Object.assign(Url.prototype, {
     }
 
     if (this.query) {
-      let query = ''
+      let queryString = ''
 
-      if (typeof (this.query) === 'object') {
+      if (typeof this.query === 'object') {
         url += '?'
-        query = query.stringify(this.query)
+        queryString = query.stringify(this.query)
       } else {
-        query = String(this.query)
+        queryString = String(this.query)
 
-        if (query.charAt(0) !== '?') {
+        if (queryString.charAt(0) !== '?') {
           url += '?'
         }
       }
 
-      if (query) {
-        url += query
+      if (queryString) {
+        url += queryString
       }
     }
 
