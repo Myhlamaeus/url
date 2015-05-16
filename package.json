@@ -25,10 +25,10 @@
     "test": "standard {test/,lib/,./}*.js"
   },
   "devDependencies": {
-    "babel": "^4.4.6",
+    "babel": "^5.4.3",
     "gulp": "^3.8.11",
-    "gulp-babel": "^4.0.0",
-    "gulp-sourcemaps": "^1.5.1"
+    "gulp-babel": "^5.1.0",
+    "gulp-sourcemaps": "^1.5.2"
   },
   "dependencies": {
     "query.js": "git://github.com/ileri/query.git"
