@@ -1,17 +1,18 @@
 {
   "name": "url.js",
   "version": "0.3.0",
-  "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
+  "author": "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>",
   "bugs": {
     "url": "https://github.com/not-naught/url/issues"
   },
+  "dependencies": {
+    "query.js": "git://github.com/ileri/query.git"
+  },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-babel": "^4.0.0",
-    "grunt-browserify": "^3.5.0",
-    "grunt-contrib-uglify": "^0.8.0",
-    "load-grunt-tasks": "^3.1.0",
-    "time-grunt": "^1.1.0"
+    "babel": "^5.4.3",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-sourcemaps": "^1.5.2"
   },
   "homepage": "https://github.com/not-naught/url",
   "license": "MIT",
@@ -23,14 +24,5 @@
   "scripts": {
     "prepublish": "gulp build",
     "test": "standard {test/,lib/,./}*.js"
-  },
-  "devDependencies": {
-    "babel": "^5.4.3",
-    "gulp": "^3.8.11",
-    "gulp-babel": "^5.1.0",
-    "gulp-sourcemaps": "^1.5.2"
-  },
-  "dependencies": {
-    "query.js": "git://github.com/ileri/query.git"
   }
 }
